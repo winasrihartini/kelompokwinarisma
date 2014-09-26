@@ -1,0 +1,12 @@
+import java.util.*
+class Tambah {
+	static void main (String args[]){
+		Scanner input = new Scanner(System.In)
+		int a, b hasil;
+		System.out.println("masukkan nilai n= ");
+		a = input.nextint();
+		b = input.nextint();
+		hasil=a+b;
+		System.out.print("hasil = " +hasil);
+	}
+}

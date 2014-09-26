@@ -1,0 +1,12 @@
+import java.util.*
+class LuasPersegiPanjang {
+	static void main (String args[]){
+		Scanner input = new Scanner(System.In)
+		int a, b, luas;
+		System.out.println("masukkan nilai n= ");
+		a = input.nextint();
+		b = input.nextint();
+		luas=a*b;
+		System.out.print("luas = " +luas);
+	}
+}

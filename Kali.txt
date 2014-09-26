@@ -1,0 +1,12 @@
+import java.util.*
+class Kali {
+	static void main (String args[]){
+		Scanner input = new Scanner(System.In)
+		int e, f hasil;
+		System.out.println("masukkan nilai n= ");
+		e = input.nextint();
+		f = input.nextint();
+		hasil=e*f;
+		System.out.print("hasil = " +hasil);
+	}
+}

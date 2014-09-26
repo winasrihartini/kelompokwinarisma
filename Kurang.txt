@@ -1,0 +1,12 @@
+import java.util.*
+class Kurang {
+	static void main (String args[]){
+		Scanner input = new Scanner(System.In)
+		int c, d hasil;
+		System.out.println("masukkan nilai n= ");
+		c = input.nextint();
+		d = input.nextint();
+		hasil=c-d;
+		System.out.print("hasil = " +hasil);
+	}
+}

@@ -1,0 +1,11 @@
+import java.util.*
+class LuasPersegi {
+	static void main (String args[]){
+		Scanner input = new Scanner(System.In)
+		int a,luas;
+		System.out.println("masukkan nilai= ");
+		a = input.nextint();
+		luas=a*a;
+		System.out.print("luas = " +luas);
+	}
+}
